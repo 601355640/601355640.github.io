@@ -1,0 +1,533 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dt, dd, h1, h2, h3, h4, h5, h6, fieldset, legend, img, input, p, table {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+i, em {
+  font-style: normal;
+}
+
+img {
+  border: 0;
+  display: block;
+}
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑","黑体","宋体",Arial, Helvetica, "sans-serif";
+}
+
+.clear:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+/*--headercon--*/
+.headercon {
+  width: 100%;
+  height: 26px;
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.headercon .header {
+  width: 1190px;
+  height: 26px;
+  margin: 0 auto;
+}
+
+.header .collect {
+  float: left;
+  width: 78px;
+  line-height: 26px;
+  padding-left: 22px;
+  background: url(../imgs/tubiao.png) no-repeat;
+  background-position: 2px 5px;
+}
+
+.header .login {
+  float: left;
+  line-height: 26px;
+  color: #999;
+}
+
+.header .login a {
+  margin-left: 5px;
+}
+
+.header .menu {
+  float: right;
+}
+
+.header .menu span {
+  position: relative;
+  float: left;
+  padding: 0 5px;
+  line-height: 26px;
+}
+
+.header .menu .menu-mykd {
+  width: 63px;
+  height: 26px;
+  padding-left: 10px;
+}
+
+.header .menu .menu-mykd:hover {
+  background: #f9f9f9;
+  width: 61px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+.header .menu .menu-mykd i {
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  width: 7px;
+  height: 4px;
+  background: url(../imgs/tubiao.png) no-repeat 0 -27px;
+}
+
+.header .menu .menu-mykd .mykd-item {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  left: -1px;
+  top: 26px;
+  width: 66px;
+  background: #fff;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.header .menu .menu-mykd .mykd-item li {
+  line-height: 26px;
+}
+
+.header .menu .menu-mykd .mykd-item li a {
+  color: #333;
+}
+
+.header .menu .menu-mykd .mykd-item li a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+.header .menu .menu-mykd:hover .mykd-item {
+  display: block;
+}
+
+.header .menu .menu-help {
+  width: 63px;
+  padding-left: 10px;
+}
+
+.header .menu .menu-help i {
+  position: absolute;
+  right: 5px;
+  top: 12px;
+  width: 7px;
+  height: 4px;
+  background: url(../imgs/tubiao.png) no-repeat 0 -27px;
+}
+
+.header .menu .menu-help .help-item {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  left: -1px;
+  top: 26px;
+  width: 66px;
+  background: #fff;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+
+.header .menu .menu-help .help-item li {
+  line-height: 24px;
+}
+
+.header .menu .menu-help .help-item li a {
+  color: #333;
+}
+
+.header .menu .menu-help .help-item li a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+.header .menu .menu-help:hover {
+  background: #f9f9f9;
+  width: 61px;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+.header .menu .menu-help:hover .help-item {
+  display: block;
+}
+
+.header .menu .menu-line {
+  color: #e5e5e5;
+  padding: 0;
+}
+
+.header .menu .menu-car {
+  padding-left: 23px;
+  background: url(../imgs/tubiao.png) no-repeat;
+  background-position: 3px -42px;
+  border-right: 1px solid #e9e9e9;
+}
+
+.header .menu .menu-car em {
+  color: #ff6600;
+}
+
+.header .menu .menu-phone {
+  padding-left: 20px;
+  background: url(../imgs/tubiao.png) no-repeat;
+  background-position: 0 -67px;
+}
+
+.header .menu .menu-phone .phone-img {
+  display: none;
+  z-index: 100;
+  position: absolute;
+  left: -50px;
+  top: 21px;
+  width: 168px;
+  height: 203px;
+  background: url(../imgs/tubiao.png) no-repeat;
+  background-position: 0 -146px;
+}
+
+.header .menu .menu-phone:hover .phone-img {
+  display: block;
+}
+
+.header .menu .menu-serve {
+  padding: 0 5px 0 30px;
+}
+
+.header .menu .menu-serve i {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 16px;
+  height: 16px;
+  background: url(../imgs/tubiao.png) no-repeat;
+  background-position: -100px 0;
+}
+
+.header .menu .menu-serve a {
+  color: #ff6600;
+}
+
+/*------logocon------*/
+.logo {
+  width: 990px;
+  height: 57px;
+  margin: 0 auto;
+  padding: 52px 0 34px 200px;
+}
+
+.logo div {
+  float: left;
+}
+
+.logo .kedelogo {
+  width: 196px;
+}
+
+.logo .lo-word {
+  float: left;
+  color: #666;
+  font-size: 18px;
+  padding: 30px 0 0 20px;
+}
+
+/*------container------*/
+.container {
+  width: 990px;
+  height: 432px;
+  margin: 0 auto;
+}
+
+.container p {
+  height: 32px;
+  line-height: 32px;
+  text-align: right;
+  color: #666;
+}
+
+.container p span a {
+  color: #6c9d03;
+}
+
+.container p span a:hover {
+  color: #ff6600;
+}
+
+.container .content {
+  width: 990px;
+  height: 350px;
+  border: 1px solid #ccc;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.container .content .c-left {
+  float: left;
+  width: 290px;
+}
+
+.container .content .c-left img {
+  border-right: 1px solid #ccc;
+}
+
+.container .content .c-right {
+  float: right;
+  width: 340px;
+  margin-right: 75px;
+}
+
+.container .content .c-right .text, .container .content .c-right .password {
+  position: relative;
+  width: 340px;
+  height: 32px;
+  margin-bottom: 30px;
+}
+
+.container .content .c-right .text i, .container .content .c-right .password i {
+  position: absolute;
+  left: 8px;
+  top: 4px;
+  width: 24px;
+  height: 24px;
+  background: url(../imgs/l-bg.png) no-repeat 0 -24px;
+}
+
+.container .content .c-right .text input, .container .content .c-right .password input {
+  width: 290px;
+  height: 30px;
+  padding-left: 40px;
+  border: 0;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.container .content .c-right .text .txtero {
+  color: #ff6600;
+}
+
+.container .content .c-right .password i {
+  background-position: 0px 0px;
+}
+
+.container .content .c-right .password .pswero {
+  color: #ff6600;
+}
+
+.container .content .c-right .froget {
+  width: 340px;
+  height: 17px;
+  margin-bottom: 5px;
+}
+
+.container .content .c-right .froget .f-left {
+  float: left;
+  color: #333;
+}
+
+.container .content .c-right .froget .f-left input {
+  width: 12px;
+  height: 12px;
+}
+
+.container .content .c-right .froget .f-left .tishi {
+  display: none;
+  margin-left: 10px;
+  color: #f60;
+}
+
+.container .content .c-right .froget .f-left input:nth-child(2) {
+  margin-left: 10px;
+}
+
+.container .content .c-right .froget .f-right {
+  float: right;
+}
+
+.container .content .c-right .froget .f-right a {
+  color: #6c9d03;
+}
+
+.container .content .c-right .btn input {
+  width: 330px;
+  height: 32px;
+  border: none;
+  background: #f60;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 34px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  outline: 0;
+}
+
+.container .content .c-right .btn input:hover {
+  background: #f80;
+}
+
+.container .content .c-right .worker {
+  width: 330px;
+}
+
+.container .content .c-right .worker p {
+  height: 12px;
+  margin-bottom: 8px;
+  color: #999;
+  text-align: left;
+  line-height: 12px;
+}
+
+.container .content .c-right .worker span {
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+  background: #ccc url(../imgs/l-bg.png) no-repeat;
+}
+
+.container .content .c-right .worker span:nth-of-type(1) {
+  background-position: 0 -74px;
+}
+
+.container .content .c-right .worker span:nth-of-type(1):hover {
+  background: #f80 url(../imgs/l-bg.png) no-repeat 0 -74px;
+}
+
+.container .content .c-right .worker span:nth-of-type(2) {
+  background-position: -40px -74px;
+}
+
+.container .content .c-right .worker span:nth-of-type(2):hover {
+  background: #f80 url(../imgs/l-bg.png) no-repeat -40px -74px;
+}
+
+.container .content .c-right .worker span:nth-of-type(3) {
+  background-position: -80px -74px;
+}
+
+.container .content .c-right .worker span:nth-of-type(3):hover {
+  background: #f80 url(../imgs/l-bg.png) no-repeat -80px -74px;
+}
+
+/*-----bottom----*/
+.bottomcon {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.bottomcon .bottom {
+  width: 1190px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+  color: #999;
+}
+
+.bottomcon .bottom a {
+  color: #999;
+}
+
+.bottomcon .bottom .b-top {
+  padding: 14px 0;
+}
+
+.bottomcon .bottom .b-top a {
+  padding: 0 5px;
+}
+
+.bottomcon .bottom .b-top a:hover {
+  color: #f80;
+}
+
+.bottomcon .bottom .b-top p {
+  margin-top: 5px;
+}
+
+.bottomcon .bottom .bot-bot {
+  margin-left: 246px;
+}
+
+.bottomcon .bottom .bot-bot span {
+  float: left;
+  width: 108px;
+  height: 40px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: url(../imgs/bt-bg.jpg) no-repeat;
+}
+
+.bottomcon .bottom .bot-bot .s-bg1 {
+  background-position: 0 0;
+}
+
+.bottomcon .bottom .bot-bot .s-bg2 {
+  background-position: -118px 0;
+}
+
+.bottomcon .bottom .bot-bot .s-bg3 {
+  background-position: -236px 0;
+}
+
+.bottomcon .bottom .bot-bot .s-bg4 {
+  background-position: -354px 0;
+}
+
+.bottomcon .bottom .bot-bot .s-bg5 {
+  background-position: -472px 0;
+}
+
+.bottomcon .bottom .bot-bot .s-bg6 {
+  background-position: -590px 0;
+}

@@ -1,0 +1,279 @@
+[
+	{
+		"floor":"1F",
+		"type":"透明隐形眼镜",
+		"color":"#72b7fc",
+		"jx":["博士伦","强生","视康","库博","海昌","卫康","蔡司"],
+		"rm":["日抛","月抛","半年抛","首次配载","硅水胶"],	
+		"leftlb":["imgs/f1.jpg","imgs/f2.png"],	
+		"hot":[
+				{
+					"name":"强生舒日日抛30片装 ",
+					"pic":"imgs/top1.jpg",
+					"newprice":"¥208",
+					"oldprice":"¥249"
+				},
+				{
+					"name":"博士伦清朗日抛30片装 ",
+					"pic":"imgs/top2.jpg",
+					"newprice":"¥158.00",
+					"oldprice":"¥249"
+				},
+				{
+					"name":"库博宝睛润日抛30片装 ",
+					"pic":"imgs/top3.jpg",
+					"newprice":"¥159",
+					"oldprice":"¥259"
+				}
+
+			],
+		"goods":[
+					{
+						"name":"视康多水润日抛30片",
+						"pic":"imgs/1f1.jpg",
+						"price":"¥126.00",
+						"sale":"两盒立减20元"
+					},
+					{
+						"name":"博士伦清朗日抛30片装",
+						"pic":"imgs/1f2.jpg",
+						"price":"¥158.00",
+						"sale":"拍四免一"
+					},
+					{
+						"name":"强生舒日日抛30片装",
+						"pic":"imgs/1f3.jpg",
+						"price":"¥208.00",
+						"sale":"积分抵扣5元"
+					},
+					{
+						"name":"诺思纯晰日抛30片装 ",
+						"pic":"imgs/1f4.jpg",
+						"price":"¥79.00",
+						"sale":"直降19元"
+					},
+					{
+						"name":"海昌EASY DAY日抛30片装  ",
+						"pic":"imgs/1f5.jpg",
+						"price":"¥99.00",
+						"sale":"直降10元"
+					},
+					{
+						"name":"卫康水盈半年抛2片装 ",
+						"pic":"imgs/1f6.jpg",
+						"price":"¥49.00",
+						"sale":"送护理液+镜盒"
+					},
+					{
+						"name":"强生润眸两周抛6片装",
+						"pic":"imgs/1f7.jpg",
+						"price":"¥78.00",
+						"sale":"直降20元"
+					},
+					{
+						"name":"库博佰视明月抛3片装 ",
+						"pic":"imgs/1f8.jpg",
+						"price":"¥139.00",
+						"sale":"赠精美伴侣盒"
+					},
+					{
+						"name":"视康舒视氧月抛6片装  ",
+						"pic":"imgs/1f9.jpg",
+						"price":"¥96.00",
+						"sale":"直降32元"
+					},
+					{
+						"name":"博士伦清朗舒适月抛6片装 ",
+						"pic":"imgs/1f10.jpg",
+						"price":"¥108.00",
+						"sale":"赠精美伴侣盒"
+					}
+				],
+		"rightlb":["imgs/1f-ban1.png","imgs/1f-ban2.jpg"]
+	},
+	{
+		"floor":"2F",
+		"type":"彩色隐形眼镜",
+		"color":"#fd81b3",
+		"jx":["博士伦","强生","海昌","实瞳","诺思","视康","科莱博","海俪恩"],
+		"rm":["日抛","自然甜美","大直径","小圆环","个性混血"],	
+		"leftlb":["imgs/2f1.png","imgs/2f2.png"],	
+		"hot":[
+				{
+					"name":"强生define新美瞳炫闪日抛30片装 ",
+					"pic":"imgs/2top1.jpg",
+					"newprice":"¥208",
+					"oldprice":"¥498"
+				},
+				{
+					"name":"博士伦蕾丝明眸日抛30片装 ",
+					"pic":"imgs/2top2.jpg",
+					"newprice":"¥166.00",
+					"oldprice":"¥278"
+				},
+				{
+					"name":"实瞳可芙蕾日抛30片装 ",
+					"pic":"imgs/2top3.jpg",
+					"newprice":"¥169",
+					"oldprice":"¥289"
+				}
+
+			],
+		"goods":[
+					{
+						"name":"视康多水润日抛30片",
+						"pic":"imgs/2f3.jpg",
+						"price":"¥126.00",
+						"sale":"两盒立减20元"
+					},
+					{
+						"name":"博士伦清朗日抛30片装",
+						"pic":"imgs/2f4.jpg",
+						"price":"¥158.00",
+						"sale":"拍四免一"
+					},
+					{
+						"name":"强生舒日日抛30片装",
+						"pic":"imgs/2f5.jpg",
+						"price":"¥208.00",
+						"sale":"积分抵扣5元"
+					},
+					{
+						"name":"诺思纯晰日抛30片装 ",
+						"pic":"imgs/2f6.jpg",
+						"price":"¥79.00",
+						"sale":"直降19元"
+					},
+					{
+						"name":"海昌EASY DAY日抛30片装  ",
+						"pic":"imgs/2f7.jpg",
+						"price":"¥99.00",
+						"sale":"直降10元"
+					},
+					{
+						"name":"卫康水盈半年抛2片装 ",
+						"pic":"imgs/2f8.jpg",
+						"price":"¥49.00",
+						"sale":"送护理液+镜盒"
+					},
+					{
+						"name":"强生润眸两周抛6片装",
+						"pic":"imgs/2f9.jpg",
+						"price":"¥78.00",
+						"sale":"直降20元"
+					},
+					{
+						"name":"库博佰视明月抛3片装 ",
+						"pic":"imgs/2f10.jpg",
+						"price":"¥139.00",
+						"sale":"赠精美伴侣盒"
+					},
+					{
+						"name":"视康舒视氧月抛6片装  ",
+						"pic":"imgs/2f11.jpg",
+						"price":"¥96.00",
+						"sale":"直降32元"
+					},
+					{
+						"name":"博士伦清朗舒适月抛6片装 ",
+						"pic":"imgs/2f12.jpg",
+						"price":"¥108.00",
+						"sale":"赠精美伴侣盒"
+					}
+				],
+		"rightlb":["imgs/2f-ban1.png","imgs/2f-ban2.png"]
+	},
+	{
+		"floor":"3F",
+		"type":"护理用品",
+		"color":"#00cccc",
+		"jx":["爱尔康","博士伦","海昌","卫康","科莱博","优卓","全能","优能"],
+		"rm":["促销装","旅行装","彩瞳专用","润眼液","RGP护理液"],	
+		"leftlb":["imgs/f3-1.jpg","imgs/f3-1.jpg"],	
+		"hot":[
+				{
+					"name":"强生舒日日抛30片装 ",
+					"pic":"imgs/3top1.jpg",
+					"newprice":"¥208",
+					"oldprice":"¥249"
+				},
+				{
+					"name":"博士伦清朗日抛30片装 ",
+					"pic":"imgs/3top2.jpg",
+					"newprice":"¥158.00",
+					"oldprice":"¥249"
+				},
+				{
+					"name":"库博宝睛润日抛30片装 ",
+					"pic":"imgs/3top3.jpg",
+					"newprice":"¥159",
+					"oldprice":"¥259"
+				}
+
+			],
+		"goods":[
+					{
+						"name":"视康多水润日抛30片",
+						"pic":"imgs/3f1.jpg",
+						"price":"¥126.00",
+						"sale":"两盒立减20元"
+					},
+					{
+						"name":"博士伦清朗日抛30片装",
+						"pic":"imgs/3f2.jpg",
+						"price":"¥158.00",
+						"sale":"拍四免一"
+					},
+					{
+						"name":"强生舒日日抛30片装",
+						"pic":"imgs/3f3.jpg",
+						"price":"¥208.00",
+						"sale":"积分抵扣5元"
+					},
+					{
+						"name":"诺思纯晰日抛30片装 ",
+						"pic":"imgs/3f4.jpg",
+						"price":"¥79.00",
+						"sale":"直降19元"
+					},
+					{
+						"name":"海昌EASY DAY日抛30片装  ",
+						"pic":"imgs/3f5.jpg",
+						"price":"¥99.00",
+						"sale":"直降10元"
+					},
+					{
+						"name":"卫康水盈半年抛2片装 ",
+						"pic":"imgs/3f6.jpg",
+						"price":"¥49.00",
+						"sale":"送护理液+镜盒"
+					},
+					{
+						"name":"强生润眸两周抛6片装",
+						"pic":"imgs/3f7.jpg",
+						"price":"¥78.00",
+						"sale":"直降20元"
+					},
+					{
+						"name":"库博佰视明月抛3片装 ",
+						"pic":"imgs/3f8.jpg",
+						"price":"¥139.00",
+						"sale":"赠精美伴侣盒"
+					},
+					{
+						"name":"视康舒视氧月抛6片装  ",
+						"pic":"imgs/3f9.jpg",
+						"price":"¥96.00",
+						"sale":"直降32元"
+					},
+					{
+						"name":"博士伦清朗舒适月抛6片装 ",
+						"pic":"imgs/3f10.jpg",
+						"price":"¥108.00",
+						"sale":"赠精美伴侣盒"
+					}
+				],
+		"rightlb":["imgs/3f-ban1.png","imgs/3f-ban2.png"]
+	}
+
+]

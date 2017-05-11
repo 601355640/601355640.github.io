@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>可得眼镜--购物车页</title>
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+	<!-- headercon -->
+	<div class="headercon">
+		<div class="header">
+			<div class="collect"><a href="###">收藏可得网</a></div>
+			<div class="login">
+				您好，欢迎光临可得眼镜网！ 
+				<a href="login.html">登录</a>
+				<a href="signin.html">[免费注册]</a>
+			</div>
+			<div class="menu">
+				<span class="menu-lq"><a href="###">我的礼券</a></span>
+				<span class="menu-mykd"><a href="###">我的可得</a><i></i>
+					<ul class="mykd-item">
+						<li><a href="###">我的订单</a></li>
+						<li><a href="###">我的收藏</a></li>
+						<li><a href="###">积分兑换</a></li>
+						<li><a href="###">我的验光单</a></li>
+					</ul>
+
+				</span>
+				<span class="menu-help"><a href="###">帮助中心</a><i></i>
+					<ul class="help-item">
+						<li><a href="###">常见问题</a></li>
+						<li><a href="###">退货换货</a></li>
+						<li><a href="###">快递查询</a></li>
+						<li><a href="###">眼镜学堂</a></li>
+						<li><a href="###">礼券使用</a></li>
+						<li><a href="###">投诉建议</a></li>
+						<li><a href="###">网站地图</a></li>
+					</ul>
+				</span>
+				<span class="menu-line">|</span>
+				<span class="menu-car"><a href="###">购物车<em> 0</em>件</a></span>
+				<span class="menu-phone">
+					<i></i>
+					<a href="###">手机版</a>
+					<em class="phone-img"></em>
+				</span>
+				<span class="menu-serve clear"><i></i><a href="###">客服电话 : 4006-20-20-20 ( 9:00-23:45 )</a></span>
+			</div>
+		</div>				
+	</div>
+<!-- logocon -->
+	<div class="logocon">	
+		<div class="logo">
+			<div class="kedelogo"><a href="###"><img src="imgs/kede-logo.gif" alt=""></a></div>
+			<div class="lo-word">我的购物车</div>
+			<div class="progress">
+				<div class=pro-bg></div>
+				<div class="pro-word"> 	
+					<div class="pro-my">我的购物车</div>
+					<div class="pro-sure">确认订单信息</div>
+					<div class="pro-success">成功提交订单</div>
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+
+<!-- container -->
+	<div class="container">
+		<div class="con-title">
+			<ul class="t-tlt">
+				<li>
+					<input type="checkbox" class="btn-all"/>
+					<span>全选</span>
+				</li>
+				<li>商品</li>
+				<li>数量</li>
+				<li>单价(元)</li>
+				<li>小计(元)</li>
+				<li>操作</li>				
+			</ul>
+		</div>
+		<div class="con-goods">
+
+			
+		</div>
+		<div class="options clear">
+			<div class="options-item select-all">
+				<input type="checkbox" class="btn-all">
+				<span>全选</span>
+			</div>
+			<div class="options-item delete">
+				<a href="#">删除</a>
+			</div>
+		</div>
+
+		<div class="goods-money clear">
+			<div class="goods-num">
+				<div class="g-number">
+					共<span>0</span>件商品
+				</div>
+				<div class="money-total clear">
+					<div class="clear">
+						<p>商品总价&nbsp;: </p>
+						<div class="m-zj m-spzj">¥<span>0.00</span></div>
+					</div>
+					<div class="clear">
+						<p>促销优惠&nbsp;: </p>
+						<div class="m-zj">-¥<span>0.00</span></div>
+					</div>
+					
+				</div>
+					
+			</div>	
+		</div>
+		<div class="goods-pay clear">
+			<div class="g-box">
+				<div class="pay-zj">总计(不含运费)<i>:</i><em>¥</em><span>0.00</span></div>
+				<div class="to-pay">去结算 <span>&gt;</span></div>
+			</div>
+			
+		</div>
+	</div>
+
+	<!-- bottom -->
+	<div class="bottomcon">
+		<div class="bottom">
+			<div class="b-top">
+				<a href="###">首页</a>
+				<span>|</span>
+				<a href="###">联系我们</a>
+				<span>|</span>
+				<a href="###">友情链接</a>
+				<span>|</span>
+				<a href="###">眼镜百科</a>
+				<span>|</span>
+				<a href="###">网站地图</a>
+				<span>|</span>
+				<a href="###">隐私安全</a>
+				<p class="pad-top">Copyright 2006-2017 可得眼镜 KEDE.com 版权所有 沪ICP备14001373号 全国服务热线：4006-20-20-20</p>
+			</div>
+			
+			<div class="bot-bot">
+				<span class="s-bg1"></span>
+				<span class="s-bg2"></span>
+				<span class="s-bg3"></span>
+				<span class="s-bg4"></span>
+				<span class="s-bg5"></span>
+				<span class="s-bg6"></span>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/html" id="cart-list">
+		{{each cart as v k}}
+			<ul class="cart-goods-item clear" data-id="{{k}}">
+				<li>
+					<input type="checkbox" />
+				</li>
+				<li>
+					<div class="g-imgs"><img src="{{data.type[k].src}}"></div>
+					<div class="g-name">{{data.type[k].kind}}</div>
+				</li>
+				<li class="god-num" data-stock="{{data.type[k].stock}}">
+					<div class="btn-l">-</div>
+					<input type="text" name="" class="text" value="{{v.num}}">
+					<div class="btn-r">+</div>
+				</li>
+				<li>
+					¥<span class="g-price">{{data.type[k].sale_price}}</span>
+				</li>
+				<li>
+					¥<span class="g-total">{{data.type[k].sale_price * v.num}}</span>
+				</li>
+				<li>
+					<p>加入收藏夹</p>
+					<div class="g-delete"><a href="###">删除</a></div>
+				</li>
+			</ul>
+		{{/each}}
+	</script>
+
+	<script data-main="js/cart" src="js/require.js" defer async="true"></script>
+
+</body>
+</html>
