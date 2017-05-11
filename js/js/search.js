@@ -4,7 +4,7 @@ define(['jquery'],function(){
 	var content =$('.s-content');
 	txt.bind('input propertychange',function(){
 		$.ajax({
-			url:'http://suggestion.baidu.com/su?',
+			url:'https://suggestion.baidu.com/su?',
 			data:{
 				wd:txt.val()
 			},
